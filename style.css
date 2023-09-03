@@ -1,0 +1,73 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+#title > h1 {
+    border: solid black 1px;
+    padding: 0.5rem;
+}
+
+#round {
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+#team {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+    justify-content:space-around;
+}
+
+#team > #player {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+
+#team > #comp {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+
+.tName {
+    border: solid black 1px;
+    padding: 0.3rem;
+}
+
+#score {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#buttons {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+
+
+

@@ -7,7 +7,7 @@ const getCompterChoice = () => {
 
 const round = () => {
     let computerSelection = getCompterChoice()
-    let playerSelection = prompt("Enter your move:").toLowerCase()
+    //let playerSelection = prompt("Enter your move:").toLowerCase()
     if (computerSelection == playerSelection){
         console.log(`It's a Draw! ${computerSelection} equals ${playerSelection}`)
     }
